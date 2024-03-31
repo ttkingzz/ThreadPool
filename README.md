@@ -73,4 +73,5 @@ uLong sum1 = res1.get().cast_<uLong>();
 ```
 
 ## 代码优化
-减少代码量和提交任务的复杂度，采用可变惨模板编程、引用折叠和future类型，优化代码
+减少代码量和提交任务的复杂度，采用可变惨模板编程、引用折叠和future类型，优化代码.
+优化后，使用可变惨模板编程、package_task、future实现的线程池：[可变惨模板的线程池](https://github.com/ttkingzz/threadpool_future.git)
